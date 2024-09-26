@@ -1,9 +1,9 @@
 services:
-  my-app:
-    build:
-      context: .
-      args:
-        STUDENT_NAME: "Agus Setiawan"
-        STUDENT_NIM: "00000012345"
-    ports:
-      # TODO
+ my-app:
+   build:
+     context: .
+     args:
+       STUDENT_NAME: "Weisly Bernard Wijaya"
+       STUDENT_NIM: "00000053528"
+   ports:
+     - "80:3000"  # Replace with the appropriate port your app uses
